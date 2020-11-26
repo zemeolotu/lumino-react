@@ -1,0 +1,35 @@
+{
+  "name": "lumino-dockpanel-react",
+  "version": "0.0.1",
+  "types": "./types/index.d.ts",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zemeolotu/lumino-react.git"
+  },
+  "author": "Zeme Olotu",
+  "bugs": {
+    "url": "https://github.com/zemeolotu/lumino-react/issues"
+  },
+  "keywords": [
+    "lumino",
+    "react",
+    "dock",
+    "dockpanel",
+    "layout"
+  ],
+  "files": [
+    "src/*",
+    "lib/*",
+    "types/*"
+  ],
+  "dependencies": {
+    "@lumino/widgets": "^1.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
